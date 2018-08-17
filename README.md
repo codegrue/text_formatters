@@ -1,6 +1,6 @@
 # text_formatters
 
-A package of pre-build `TextInputFormatter` objects to use with Flutter's `TextField` or `TextFormField` widgets.
+A package of pre-built `TextInputFormatter` objects to use with Flutter's `TextField` or `TextFormField` widgets.
 
 ## Formatters
 
