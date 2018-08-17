@@ -33,4 +33,7 @@ Please see the [Changelog](https://github.com/codegrue/text_formatters/blob/mast
 Feel free to contribute to this project.
 
 If you find a bug or want a feature, but don't know how to fix/implement it, please fill an [issue](https://github.com/codegrue/text_formatters/issues).  
+
 If you fixed a bug or implemented a new feature, please send a [pull request](https://github.com/codegrue/text_formatters/pulls).
+
+If you want to discuss this project, please join the [Discord](https://discord.gg/Um8kqPw) chat.
