@@ -1,5 +1,5 @@
 name: text_formatters
-description: A new flutter package project.
+description: A package of pre-build `TextInputFormatter` objects to use with Flutter's `TextField` or `TextFormField` widgets.
 version: 0.0.1
 author:
 homepage:
