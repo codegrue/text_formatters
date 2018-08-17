@@ -28,39 +28,50 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: new AppBar(
         title: new Text('Text Formatters Example'),
       ),
-      body: new Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          new TextField(
-            decoration: InputDecoration(
-              labelText: "(no formatter)",
+      body: Container(
+        padding: EdgeInsets.all(10.0),
+        child: new Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            new TextField(
+              decoration: InputDecoration(
+                labelText: "(no formatter)",
+              ),
             ),
-          ),
-          new TextField(
-            decoration: InputDecoration(
-              labelText: "UppercaseInputFormatter",
+            new TextField(
+              decoration: InputDecoration(
+                labelText: "UppercaseInputFormatter",
+              ),
+              inputFormatters: [
+                UppercaseInputFormatter(),
+              ],
             ),
-            inputFormatters: [
-              UppercaseInputFormatter(),
-            ],
-          ),
-          new TextField(
-            decoration: InputDecoration(
-              labelText: "LowercaseInputFormatter",
+            new TextField(
+              decoration: InputDecoration(
+                labelText: "LowercaseInputFormatter",
+              ),
+              inputFormatters: [
+                LowercaseInputFormatter(),
+              ],
             ),
-            inputFormatters: [
-              LowercaseInputFormatter(),
-            ],
-          ),
-          new TextField(
-            decoration: InputDecoration(
-              labelText: "AlternatingCapsInputFormatter",
+            new TextField(
+              decoration: InputDecoration(
+                labelText: "AlternatingCapsInputFormatter",
+              ),
+              inputFormatters: [
+                AlternatingCapsInputFormatter(),
+              ],
             ),
-            inputFormatters: [
-              AlternatingCapsInputFormatter(),
-            ],
-          ),
-        ],
+            new TextField(
+              decoration: InputDecoration(
+                labelText: "MaskInputFormatter",
+              ),
+              inputFormatters: [
+                MaskInputFormatter("(000) 000-0000"),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }

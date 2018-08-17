@@ -1,5 +1,8 @@
 library text_formatters;
 
-export 'src/uppercase_formatter.dart';
-export 'src/lowercase_formatter.dart';
-export 'src/alternating_caps_formatter.dart';
+export 'formatters/uppercase_formatter.dart';
+export 'formatters/lowercase_formatter.dart';
+export 'formatters/alternating_caps_formatter.dart';
+export 'formatters/mask_formatter.dart';
+
+export 'helpers/unmask_functions.dart';
